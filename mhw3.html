@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>Wanderlust Adventures</title>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="mhw3.css" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <script src="mhw3.js" defer></script>
+    </head>
+
+    <body>
+
+        <header>
+            <nav>
+                <div id="name">Wanderlust Adventures</div>
+                <div id="links">
+                    <a>Home</a>
+                    <a>Offerte</a>
+                    <a>Destinazioni</a>
+                    <a>Contatti</a>
+                    <a id="button">Prenota</a>
+                </div>
+                <div id="menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </nav>
+
+            <div id="overlay"></div>
+            <div id="left">
+                <h1>Wanderlust Adventures</h1>
+                <div id="subtitle"><em>Fuggi dalla tua routine con noi</em></div>
+            </div>
+        </header>
+
+        <img id="logo" src="./logo.jpg"/>
+
+        <section id="content">
+            <span class="text">Ecco alcune tra le mete consigliate: </span>
+            <span class="text">Clicca su scopri di più per conoscere nuove avventure!</span>
+
+            <div class="list">
+                <h1 class="number">1.</h1>
+                <div class="box">
+                    <h1>Santorini</h1>
+                    <p>
+                        L'isola greca di Santorini è una meraviglia naturale, con le sue case bianche che si affacciano sul mare cristallino e i tramonti mozzafiato. </br>
+                        Esplora i villaggi tradizionali, gustati la cucina locale e rilassati sulle spiagge di sabbia nera.
+                    </p>
+                    <div id="discover" data-id="7DC9E" data-latitude="36.4622122" data-longitude="25.3757257">Scopri di più</div>
+                    <img src="./santorini.jpg">
+                </div>
+            </div>
+
+            <div class="list">
+                <h1 class="number">2.</h1>
+                <div class="box">
+                    <h1>Grand Canyon</h1>
+                    <p>
+                        Il Grand Canyon è una delle meraviglie naturali più famose al mondo, con le sue pareti rocciose che si stagliano per oltre un chilometro di altezza. </br>
+                        Ammira il panorama dal bordo del canyon o vola in elicottero per un'esperienza unica.
+                    </p>
+                    <div id="discover" data-id="145DE" data-latitude="36.0965604" data-longitude="-112.0984941">Scopri di più</div>
+                    <img src="./grandcanyon.jpg">
+                </div>
+            </div>
+
+            <div class="list">
+                <h1 class="number">3.</h1>
+                <div class="box">
+                    <h1>Islanda</h1>
+                    <p>
+                        L'Islanda è un vero paradiso per gli amanti della natura, con i suoi ghiacciai, le cascate, le sorgenti termali e le aurore boreali. </br>
+                        Fai un'escursione sul ghiacciaio di Vatnajökull, ammira la cascata di Gullfoss e goditi un bagno nelle acque calde della Blue Lagoon!
+                    </p>
+                    <div id="discover" data-id="25D90" data-latitude="64.145981" data-longitude="-21.9422367">Scopri di più</div>
+                    <img src="./islanda.jpg">
+                </div>
+            </div>
+            
+            <div class="list">
+                <h1 class="number">4.</h1>
+                <div class="box">
+                    <h1>Parigi</h1>
+                    <p>
+                        La Ville Lumière è una città incantevole, con i suoi monumenti iconici come la Torre Eiffel, l'Arco di Trionfo e la Cattedrale di Notre-Dame. </br>
+                        Assapora i croissant e i macarons nei caffè parigini, visita il museo del Louvre e passeggia lungo le rive della Senna per ammirare la vista.
+                    </p>
+                    <div id="discover" data-id="44C33" data-latitude="48.8588897" data-longitude="2.320041">Scopri di più</div>
+                    <img src="./parigi.jpg">
+                </div>
+            </div>
+        </section>
+
+        <section id="results-view" class="hidden">
+            <section id="container"></section>
+            <span id="forecast">Previsioni meteo: </span>
+            <section id="weather"></section>
+            <section id="back"></section>
+        </section>
+
+        <footer>
+            <span>Creato da: Elena Maria Monticchio</span>
+            <span>Matricola: 1000015325</span>
+        </footer>
+        
+    </body>
+</html>
